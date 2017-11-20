@@ -1,0 +1,51 @@
+<div class="container" style="padding-left: 0; padding-right: 0;">
+  <header class="navbar navbar-light navbar-fixed-top navbar-toggleable-md">
+    <button class="navbar-toggler navbar-toggler-right" type="button" (click)="navbarCollapsed = !navbarCollapsed"
+            [attr.aria-expanded]="!navbarCollapsed" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand"><img src="assets/trivera.jpg"/> {{title}}</a>
+
+    <div class="navbar-collapse" [ngbCollapse]="navbarCollapsed" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link">Getting Started</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Courses</a>
+        </li>
+      </ul>
+
+      <span class="buttons">
+        <a href="http://triveratech.com" target="_blank">Trivera Home</a>
+        <a href="http://meetings.webex.com" target="_blank">WebEx</a>
+      </span>
+    </div>
+  </header>
+</div>
+
+<h1>
+  {{title}}
+</h1>
+
+<p>Welcome, {{firstName}} <span class="fa fa-play"></span></p>
+<p>Your birth date is: {{birthDate}}</p>
+
+<div>
+        This page was rendered at {{now | date:'medium'}}
+</div>
+
+<div class="container">
+	<div class="row">
+		<span class="col-md-4" *ngFor="let cust of customers">
+			<customer [customerId]="cust.customerId"></customer>
+		</span>
+	</div>
+</div>
+
+<footer class="bd-footer text-muted">
+  <div class="container">
+    &copy; 2017 Trivera Technologies
+  </div>
+</footer>

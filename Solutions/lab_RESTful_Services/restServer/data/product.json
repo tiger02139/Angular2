@@ -1,0 +1,16 @@
+[
+{"quantityOnHand":"200","name":"Bertie Botts Every Flavored Beans","unitPrice":"2.5","productId":"1","description":"Every flavored Jelly Beans. Surprise in every bite. Includes Chocolate, Peppermint, Spinach, Liver, Tripe, Earwax, Bogey-flavored, Vomit"},
+{"quantityOnHand":"52","name":"Canary Creams","unitPrice":"5","productId":"2","description":"Transfigures the consumer temporarily into a yellow canary. Effects wear off in about 1 hour"},
+{"quantityOnHand":"14","name":"Rubber Chicken Fake Wand","unitPrice":"15","productId":"3","description":"Mimicking wand that magically resembles the victims real wand, transfiguring into a rubber chicken on usage"},
+{"quantityOnHand":"19","name":"Limp Noodle Fake Wand","unitPrice":"15","productId":"4","description":"Mimicking wand that magically resembles the victims real wand, transfiguring into a limp noodle on usage"},
+{"quantityOnHand":"25","name":"Exploding Fake Wand","unitPrice":"17","productId":"5","description":"Mimicking wand that magically resembles the victims real wand, exploding with (mostly) harmless sparks on usage"},
+{"quantityOnHand":"98","name":"Elephant Roars","unitPrice":"1.5","productId":"6","description":"The consumer trumpets like an elephant for approximately 1 hour after eating."},
+{"quantityOnHand":"68","name":"Gorilla Grunts","unitPrice":"2.35","productId":"7","description":"The consumer is compelled to grunt like a gorilla and pound his chest for approximately 1 hour after eating."},
+{"quantityOnHand":"43","name":"Basic Blaze Box","unitPrice":"25","productId":"8","description":"A basic selection of Weasleys Wild-Fire Whiz-Bangs, the twins wizarding fireworks."},
+{"quantityOnHand":"12","name":"Deflagration Deluxe","unitPrice":"70","productId":"9","description":"A deluxe selection of Weasleys Wild-Fire Whiz-Bangs, the twins wizarding fireworks."},
+{"quantityOnHand":"128","name":"Extendible Ears","unitPrice":"5","productId":"10","description":"Has the appearance of a piece of flesh-colored string; one end is attached to the listeners ear, the other is placed near what the listener wants to overhear. If a solId object with an Imperturbable Charm on it is in the way, the Extendible Ear wont be able to pick up the desired sounds. "},
+{"quantityOnHand":"203","name":"Fainting Fancy","unitPrice":"1","productId":"11","description":"One of the range of sweets found in a Skiving Snackbox, this causes the eater to faint."},
+{"quantityOnHand":"20","name":"Headless Hats","unitPrice":"25","productId":"12","description":"A Headless Hat carries a special invisibility charm that, when placed on a wearer, makes the wearers head invisible (along with the hat itself), but the rest of the wearer remains visible."},
+{"quantityOnHand":"34","name":"Puking Pastilles","unitPrice":"10","productId":"13","description":"One of the range of sweets found in a Skiving Snackbox. Each end of the sweet is color-coded, so that one end causes the eater to vomit and the other cancels the effect."},
+{"quantityOnHand":"6","name":"Portable Swamp","unitPrice":"35","productId":"14","description":"When deployed, creates a swamp covering the target area."}
+]

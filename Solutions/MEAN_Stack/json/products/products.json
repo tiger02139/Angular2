@@ -1,0 +1,115 @@
+[
+ 
+    {
+        "productId": 1,
+        "productName": "Dog",
+        "description": "The domestic dog (Canis lupus familiaris or Canis familiaris) is a domesticated canid which has been selectively bred over millennia for various behaviours, sensory capabilities, and physical attributes. (Wikipedia)",
+        "price": 1135.95,
+        "starRating": 3.7,
+        "imageUrl": "../app/img/dog.jpg"
+    },
+        {
+        "productId": 2,
+        "productName": "Striped Cat",
+        "description": "The domestic cat (Latin: Felis catus) or the feral cat (Latin: Felis silvestris catus) is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats. (Wikipedia)",
+        "price": 1035.95,
+        "starRating": 4.6,
+        "imageUrl": "../app/img/stripes.jpg"
+    },
+     {
+        "productId": 3,
+        "productName": "Dwarf Rabbit",
+        "description": "Rabbits are small mammals in the family Leporidae of the order Lagomorpha, found in several parts of the world. There are eight different genera in the family classified as rabbits. (Wikipedia)",
+        "price": 1111.55,
+        "starRating": 3.2,
+        "imageUrl": "../app/img/dwarf-rabbit.jpg"
+    },
+    {
+        "productId": 4,
+        "productName": "Angora Rabbit",
+        "description": "The Angora rabbit (Turkish: Ankara tavşanı) is a variety of domestic rabbit bred for its long, soft wool. The Angora is one of the oldest types of domestic rabbit, originating in Ankara, present day Turkey.",
+        "price": 1119.95,
+        "starRating": 3.9,
+        "imageUrl": "../app/img/angora-rabbit.jpg"
+    },
+    {
+        "productId": 5,
+        "productName": "Laborador Dog",
+        "description": "Dogs perform many roles for people, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals. (Wikipedia)",
+        "price": 1132.99,
+        "starRating": 3.2,
+        "imageUrl": "../app/img/blacklab.jpg"
+    },
+    {
+        "productId": 6,
+        "productName": "Kitten",
+        "description": "After being born, kittens are totally dependent on their mother for survival and they do not normally open their eyes until after seven to ten days. (Wikipedia)",
+        "price": 1118.2,
+        "starRating": 2.5,
+        "imageUrl":"../app/img/kitten.jpg" 
+    },
+        {
+        "productId": 7,
+        "productName": "Black and White Cat",
+        "description": "Cats can hear sounds too faint or too high in frequency for human ears, such as those made by mice and other small animals. (Wikipedia)",
+        "price": 1001.1,
+        "starRating": 4.5,
+        "imageUrl":"../app/img/bwcat.jpg" 
+    },
+        {
+        "productId": 8,
+        "productName": "White Rabbit",
+        "description": "The White Rabbit is a fictional character in Lewis Carroll's book Alice's Adventures in Wonderland. He appears at the very beginning of the book, in chapter one, wearing a waistcoat. (Wikipedia)",
+        "price": 1100.99,
+        "starRating": 4.7,
+        "imageUrl":"../app/img/white-rabbit.jpg" 
+    },
+        {
+        "productId": 9,
+        "productName": "Cottontail Rabbit",
+        "description": "Most Sylvilagus species have stub tails with white undersides that show when they retreat, giving them their name: \"cottontails\". (Wikipedia)",
+        "price": 1000.89,
+        "starRating": 3.9,
+        "imageUrl":"../app/img/cottontail-rabbit.jpg" 
+    },
+        {
+        "productId": 10,
+        "productName": "Pomeranian",
+        "description": "The Pomeranian (often known as a Pom or Pom Pom) is a breed of dog of the Spitz type, named for the Pomerania region in Central Europe (today part of northern Poland and eastern Germany). (Wikipedia)",
+        "price": 1080.8,
+        "starRating": 4.4,
+        "imageUrl":"../app/img/pomeranian.jpg" 
+    },
+    {
+        "productId": 11,
+        "productName": "Orange Cat",
+        "description": "Cats, despite being solitary hunters, are a social species and cat communication includes the use of a variety of vocalizations (mewing, purring, trilling, hissing, growling, and grunting). (Wikipedia)",
+        "price": 1101.9,
+        "starRating": 4.75,
+        "imageUrl":"../app/img/orangecat.jpg" 
+    },
+    {
+        "productId": 12,
+        "productName": "Gray Cat",
+        "description": "Since cats were venerated in ancient Egypt, they were commonly believed to have been domesticated there,[11] but there may have been instances of domestication as early as the Neolithic from around 9,500 years ago (7,500 BCE). (Wikipedia)",
+        "price": 1008.4,
+        "starRating": 4.4,
+        "imageUrl":"../app/img/windowcat.jpg" 
+    },
+    {
+        "productId": 13,
+        "productName": "Doberman",
+        "description": "The Doberman Pinscher or Dobermann, or Doberman, is a medium-large breed of domestic dog originally developed around 1890 by Karl Friedrich Louis Dobermann, a tax collector from Germany. (Wikipedia)",
+        "price": 1117.6,
+        "starRating": 4.45,
+        "imageUrl":"../app/img/doberman.jpg" 
+    },
+    {
+        "productId": 14,
+        "productName": "Black and White Dog",
+        "description": "Dogs perform many roles for people, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals. (Wikipedia)",
+        "price": 1100.5,
+        "starRating": 4.6,
+        "imageUrl":"../app/img/dogeyes.jpg" 
+    }
+]

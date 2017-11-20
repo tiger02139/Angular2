@@ -1,0 +1,48 @@
+li {
+    font-size: medium;
+}
+
+div.panel-heading {
+   font-size: large; 
+}
+
+
+
+.panel-heading{
+
+	background: #e1e1e1!important;
+	color: #5A6351!important;
+	border-radius: 7px;
+}
+
+.heading{
+	font-weight: bold;
+}
+
+.btn{
+
+	background: #e1e1e1!important;
+	color: #5A6351!important;
+	border: 2px solid #5A6351!important;
+	border-radius: 7px;
+	outline: none!important;
+	transition:opacity 500ms;
+}
+
+.btn:hover{
+	opacity:0.5;
+}
+
+.panel{
+	border: 2px solid #5A6351;
+	border-radius: 7px;
+}
+
+img{
+
+	border-radius: 7px;
+}
+
+a:link, a:visited, a:active {
+	color:navy;
+}

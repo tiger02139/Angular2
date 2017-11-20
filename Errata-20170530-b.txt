@@ -1,0 +1,92 @@
+Git-Unit Tests
+	The "Git-ified" version of the Unit Test lab is in Solutions/lab_Git. The original version is in Solutions/lab_Unit_Tests.
+
+LocalStorage
+	The solution works out of the box, but with a few gotchas:
+
+	1. If you want to quickly populate the customers in LocalStorage to verify the solution, you'll need to do the following in the browser console with a web page opened to the lab server origin (typically http://localhost:4200): 
+
+	window.localStorage.setItem("customers", '[{"_customerId":1234,"_firstName":"Harry","_lastName":"Potter","_email":"harry.potter@hogwarts.ac.uk","_phoneNumber":"+44 0206-931-9185","_birthDate":"1980-07-31T04:00:00.000Z"},{"_customerId":1235,"_firstName":"Ron","_lastName":"Weasley","_email":"ron.weasley@hogwarts.ac.uk","_phoneNumber":"+44 0206-931-9381","_birthDate":"1980-07-31T04:00:00.000Z"},{"_customerId":1236,"_firstName":"Hermione","_lastName":"Granger","_email":"hermione.granger@hogwarts.ac.uk","_phoneNumber":"+44 0206-931-9031","_birthDate":"1980-07-31T04:00:00.000Z"}]');
+
+
+	There's a roundabout way of doing this in the labs already, but the solution will only work out of the box if you've followed the original lab.
+	The code above will save you the trouble of following the lab directions or can be used as a fallback if they
+	weren't followed properly. We've added this as a fallback step in the latest lab manual.
+
+	2. After either an Add or Delete customer, customers don't get refreshed on the page even though they are stored in LocalStorage. Perform a manual refresh to verify the results. The lab manual actually says to do this, but it might be easily missed.
+
+	3. Dates are not properly restored when loaded from localStorage, even though they're properly stored. This has been fixed in the solution, but the lab manual doesn't describe how it was done.
+	   Future versions of the lab manual will include the following directions. There are two files that need to be tweaked to adjust the code:
+
+
+		* In customer-local-storage/customer-local-storage.service.ts, above the class declaration, add the "declare $" so we can use jQuery methods like $.extend:
+
+declare var $ : any;
+
+		* Alter the loadFromLocalStorage method to include handling the string-to-date conversion:
+
+  private static loadFromLocalStorage() {
+    let localCustomers = JSON.parse(window.localStorage.getItem("customers"));
+    for (let cust of localCustomers) {
+      if (typeof cust === 'object') {
+        cust = $.extend(new Customer(), cust);
+      }
+      if ((cust.birthDate instanceof String) || (typeof cust.birthDate == 'string')) {
+        try {
+          //   cust.birthDate = new Date(cust._birthDate.substring(0, 10));
+          cust.birthDate = new Date(cust.birthDate);
+        } catch (e) {
+          debugger;
+          console.log("Can't change birthDate string to Date: " + e);
+        }
+      } else {
+        cust.birthDate = new Date();
+      }
+      let custObj = $.extend(new Customer(), cust);
+      CustomerLocalStorageService.customers.push(custObj);
+    }
+    CustomerLocalStorageService.customersLoaded = true;
+  }
+
+
+
+		* In customer-view.component.ts above the class declaration, add the "declare $" so we can use jQuery methods like $.extend:
+
+declare var $ : any;
+
+
+		* In the ngOnInit(), where the form is being initialized, convert the Date structure to an NgbDateStruct (remember to do the import from 
+BirthDate conversion on read, right after the FormGroup init (the solution has refactored the form initialization to a method called "initForm", which it is also using
+on view-state change):
+
+    try {
+      if ((this.customer.birthDate instanceof String) || (typeof this.customer.birthDate == 'string')) {
+        try {
+          this.customer.birthDate = new Date(this.customer.birthDate);
+        } catch (e) {
+          console.log("Can't change birthDate string to Date: " + e);
+        }
+      }
+      if (this.customer.birthDate && this.customer.birthDate instanceof Date) {
+        let birthDate: NgbDateStruct = {
+          year: this.customer.birthDate.getFullYear(),
+          month: this.customer.birthDate.getMonth() + 1,
+          day: this.customer.birthDate.getDate()
+        };
+        this.customerForm.get('birthDate').setValue(birthDate);
+      }
+    } catch (e) {
+      console.log(e);
+    }
+
+
+
+RESTful Services
+	The solution works out of the box, but with one of the same gotcha from LocalStorage:
+
+	1. After either an Add or Delete customer, customers don't get refreshed on the page even though they are stored in the REST server. Perform a manual refresh to verify the results.
+
+
+
+
+

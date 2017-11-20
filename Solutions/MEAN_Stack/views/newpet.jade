@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    h1= title
+
+    a.btn.btn-default(href='/petlist') Back
+
+    p
+
+    form#formAddPet(name="addpet",method="post",action="/addpet")
+        input#inputproductId(type="text", placeholder="productId", name="productId")
+        input#inputproductName(type="text", placeholder="productName", name="productName")
+        input#inputdescription(type="text", placeholder="description", name="description")
+        input#inputprice(type="text", placeholder="price", name="price")
+        input#inputstarRating(type="text", placeholder="starRating", name="starRating")
+        input#inputimageUrl(type="text", placeholder="imageUrl", name="imageUrl")
+        button#btnSubmit(type="submit") submit

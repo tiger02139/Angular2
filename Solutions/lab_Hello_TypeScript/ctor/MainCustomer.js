@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Customer_1 = require("./Customer");
+var harry = new Customer_1.Customer();
+harry.customerId = 1234;
+harry.firstName = "Harry";
+harry.lastName = "Potter";
+harry.email = "harry.potter@hogwarts.ac.uk";
+harry.phoneNumber = "+44 0206-931-9185";
+harry.birthDate = new Date(1980, 6, 31);
+//console.log(harry);
+console.log(harry.firstName);

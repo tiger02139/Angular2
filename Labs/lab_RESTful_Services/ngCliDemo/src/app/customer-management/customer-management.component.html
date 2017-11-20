@@ -1,0 +1,4 @@
+<button (click)="addCustomer()"><i fa fa-plus></i></button>
+<customer-view *ngIf="showCustomerView" [state]="'add'"></customer-view>
+<customer-table></customer-table>
+

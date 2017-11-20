@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1.
+        Pet List
+    ul
+        each pet, i in petlist
+            li
+                 a(href="/editpet/" + pet.productId)= pet.productName

@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    h1.
+        Pet List
+    a.btn.btn-default(href='/newpet')
+        i.glyphicon.glyphicon-plus Add Pet
+
+    div.table-responsive
+        table
+            thead
+                tr
+                    th(style='width:200px, align=right') Pet
+                    th(style='width:75px, align=right') Price
+                    
+                each pet, i in petlist2
+                    tr
+                        td(style='width:200px, align=left')
+                            a(href="/editpet/" + pet.productId)= pet.productName
+
+                        td(style='width:75px, align=right')
+                            span=pet.price
+                
+                br
+
+    br
+    br
+    br
+

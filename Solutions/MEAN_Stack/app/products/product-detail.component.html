@@ -1,0 +1,47 @@
+<div *ngIf='product'>
+    <div class='panel-heading' style='font-size:large'>
+        {{pageTitle + ': ' + product.productName }}
+    </div>
+
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <div class='row'>
+                    <div class='col-md-3 heading'>Name:</div>
+                    <div class='col-md-6 heading'>{{product.productName}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Description:</div>
+                    <div class='col-md-6'>{{product.description}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Price:</div>
+                    <div class='col-md-6'>{{product.price|currency:'USD':true}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Popularity:</div>
+                    <div class='col-md-6'>
+                        <star [rating]='product.starRating'></star>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-md-6'>
+                <img class='center-block img-responsive' 
+                     [width]='200' 
+                     [src]='product.imageUrl'
+                     [title]='product.productName'>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back
+        </a>
+		<!-- ADDED EXTRA BUTTON TO EDIT A PET ******************************************   -->
+		<a class='btn btn-default' [routerLink]="['/productsNew']" >
+            <i class='glyphicon glyphicon-pencil'></i> Edit Pet
+        </a>
+    </div>
+</div>

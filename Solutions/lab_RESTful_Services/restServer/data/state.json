@@ -1,0 +1,116 @@
+{"country":"1","stateCode":"AL","stateId":"1","name":"Alabama"}
+{"country":"1","stateCode":"AK","stateId":"2","name":"Alaska"}
+{"country":"1","stateCode":"AZ","stateId":"3","name":"Arizona"}
+{"country":"1","stateCode":"AR","stateId":"4","name":"Arkansas"}
+{"country":"1","stateCode":"CA","stateId":"5","name":"California"}
+{"country":"1","stateCode":"CO","stateId":"6","name":"Colorado"}
+{"country":"1","stateCode":"CT","stateId":"7","name":"Connecticut"}
+{"country":"1","stateCode":"DE","stateId":"8","name":"Delaware"}
+{"country":"1","stateCode":"DC","stateId":"9","name":"District of Columbia"}
+{"country":"1","stateCode":"FL","stateId":"10","name":"Florida"}
+{"country":"1","stateCode":"GA","stateId":"11","name":"Georgia"}
+{"country":"1","stateCode":"HI","stateId":"12","name":"Hawaii"}
+{"country":"1","stateCode":"ID","stateId":"13","name":"Idaho"}
+{"country":"1","stateCode":"IL","stateId":"14","name":"Illinois"}
+{"country":"1","stateCode":"IN","stateId":"15","name":"Indiana"}
+{"country":"1","stateCode":"IA","stateId":"16","name":"Iowa"}
+{"country":"1","stateCode":"KS","stateId":"17","name":"Kansas"}
+{"country":"1","stateCode":"KY","stateId":"18","name":"Kentucky"}
+{"country":"1","stateCode":"LA","stateId":"19","name":"Louisiana"}
+{"country":"1","stateCode":"ME","stateId":"20","name":"Maine"}
+{"country":"1","stateCode":"MD","stateId":"21","name":"Maryland"}
+{"country":"1","stateCode":"MA","stateId":"22","name":"Massachusetts"}
+{"country":"1","stateCode":"MI","stateId":"23","name":"Michigan"}
+{"country":"1","stateCode":"MN","stateId":"24","name":"Minnesota"}
+{"country":"1","stateCode":"MS","stateId":"25","name":"Mississippi"}
+{"country":"1","stateCode":"MO","stateId":"26","name":"Missouri"}
+{"country":"1","stateCode":"MT","stateId":"27","name":"Montana"}
+{"country":"1","stateCode":"NE","stateId":"28","name":"Nebraska"}
+{"country":"1","stateCode":"NV","stateId":"29","name":"Nevada"}
+{"country":"1","stateCode":"NH","stateId":"30","name":"New Hampshire"}
+{"country":"1","stateCode":"NJ","stateId":"31","name":"New Jersey"}
+{"country":"1","stateCode":"NM","stateId":"32","name":"New Mexico"}
+{"country":"1","stateCode":"NY","stateId":"33","name":"New York"}
+{"country":"1","stateCode":"NC","stateId":"34","name":"North Carolina"}
+{"country":"1","stateCode":"ND","stateId":"35","name":"North Dakota"}
+{"country":"1","stateCode":"OH","stateId":"36","name":"Ohio"}
+{"country":"1","stateCode":"OK","stateId":"37","name":"Oklahoma"}
+{"country":"1","stateCode":"OR","stateId":"38","name":"Oregon"}
+{"country":"1","stateCode":"PA","stateId":"39","name":"Pennsylvania"}
+{"country":"1","stateCode":"RI","stateId":"40","name":"Rhode Island"}
+{"country":"1","stateCode":"SC","stateId":"41","name":"South Carolina"}
+{"country":"1","stateCode":"SD","stateId":"42","name":"South Dakota"}
+{"country":"1","stateCode":"TN","stateId":"43","name":"Tennessee"}
+{"country":"1","stateCode":"TX","stateId":"44","name":"Texas"}
+{"country":"1","stateCode":"UT","stateId":"45","name":"Utah"}
+{"country":"1","stateCode":"VT","stateId":"46","name":"Vermont"}
+{"country":"1","stateCode":"VA","stateId":"47","name":"Virginia"}
+{"country":"1","stateCode":"WA","stateId":"48","name":"Washington"}
+{"country":"1","stateCode":"WV","stateId":"49","name":"West Virginia"}
+{"country":"1","stateCode":"WI","stateId":"50","name":"Wisconsin"}
+{"country":"1","stateCode":"WY","stateId":"51","name":"Wyoming"}
+{"country":"1","stateCode":"AA","stateId":"52","name":"Armed Forces Americas"}
+{"country":"1","stateCode":"AE","stateId":"53","name":"Armed Forces Europe"}
+{"country":"1","stateCode":"AP","stateId":"54","name":"Armed Forces Pacific"}
+{"country":"1","stateCode":"AS","stateId":"55","name":"American Samoa"}
+{"country":"1","stateCode":"FM","stateId":"56","name":"Micronesia"}
+{"country":"1","stateCode":"GU","stateId":"57","name":"Guam"}
+{"country":"1","stateCode":"MH","stateId":"58","name":"Marshall Islands"}
+{"country":"1","stateCode":"MP","stateId":"59","name":"Northern Mariana Islands"}
+{"country":"1","stateCode":"PR","stateId":"60","name":"Puerto Rico"}
+{"country":"1","stateCode":"PW","stateId":"61","name":"Palau"}
+{"country":"1","stateCode":"UM","stateId":"62","name":"Minor Outlying Islands"}
+{"country":"1","stateCode":"VI","stateId":"63","name":"Virgin Islands"}
+{"country":"2","stateCode":"EN","stateId":"64","name":"England"}
+{"country":"2","stateCode":"SC","stateId":"65","name":"Scotland"}
+{"country":"2","stateCode":"NI","stateId":"66","name":"Northern Ireland"}
+{"country":"2","stateCode":"WL","stateId":"67","name":"Wales"}
+{"country":"3","stateCode":"ON","stateId":"68","name":"Ontario"}
+{"country":"3","stateCode":"QC","stateId":"69","name":"Quebec"}
+{"country":"3","stateCode":"NS","stateId":"70","name":"Novia Scotia"}
+{"country":"3","stateCode":"NB","stateId":"71","name":"New Brunswick"}
+{"country":"3","stateCode":"MB","stateId":"72","name":"Manitoba"}
+{"country":"3","stateCode":"BC","stateId":"73","name":"British Columbia"}
+{"country":"3","stateCode":"PE","stateId":"74","name":"Prince Edward Island"}
+{"country":"3","stateCode":"SK","stateId":"75","name":"Saskatchewan"}
+{"country":"3","stateCode":"AB","stateId":"76","name":"Alberta"}
+{"country":"3","stateCode":"NL","stateId":"77","name":"Newfoundland/Labrador"}
+{"country":"3","stateCode":"YT","stateId":"78","name":"Yukon Territory"}
+{"country":"3","stateCode":"YT","stateId":"79","name":"Northwest Territory"}
+{"country":"3","stateCode":"NU","stateId":"80","name":"Nunavut"}
+{"country":"4","stateCode":"QLD","stateId":"81","name":"Queensland"}
+{"country":"4","stateCode":"NSQ","stateId":"82","name":"New South Wales"}
+{"country":"4","stateCode":"QLD","stateId":"83","name":"South Australia"}
+{"country":"4","stateCode":"TAS","stateId":"84","name":"Tasmania"}
+{"country":"4","stateCode":"VIC","stateId":"85","name":"Victoria"}
+{"country":"4","stateCode":"WA","stateId":"86","name":"Western Australia"}
+{"country":"4","stateCode":"ACT","stateId":"87","name":"Australian Capital Territory (Canberra)"}
+{"country":"4","stateCode":"NT","stateId":"88","name":"Northern Territory"}
+{"country":"4","stateCode":"JBT","stateId":"89","name":"Jervis Bay Territory"}
+{"country":"6","stateCode":"AC","stateId":"90","name":"Acre"}
+{"country":"6","stateCode":"AL","stateId":"91","name":"Alagoas"}
+{"country":"6","stateCode":"AP","stateId":"92","name":"Amap�"}
+{"country":"6","stateCode":"AM","stateId":"93","name":"Amazonas"}
+{"country":"6","stateCode":"BA","stateId":"94","name":"Bahia"}
+{"country":"6","stateCode":"CE","stateId":"95","name":"Cear�"}
+{"country":"6","stateCode":"DF","stateId":"96","name":"Distrito Federal"}
+{"country":"6","stateCode":"ES","stateId":"97","name":"Esp�rito Santo"}
+{"country":"6","stateCode":"GO","stateId":"98","name":"Goi�s"}
+{"country":"6","stateCode":"MA","stateId":"99","name":"Maranh�o"}
+{"country":"6","stateCode":"MT","stateId":"100","name":"Mato Grosso"}
+{"country":"6","stateCode":"MS","stateId":"101","name":"Mato Grosso do Sul"}
+{"country":"6","stateCode":"MG","stateId":"102","name":"Minas Gerais"}
+{"country":"6","stateCode":"PA","stateId":"103","name":"Par�"}
+{"country":"6","stateCode":"PB","stateId":"104","name":"Para�ba"}
+{"country":"6","stateCode":"PR","stateId":"105","name":"Paran�"}
+{"country":"6","stateCode":"PE","stateId":"106","name":"Pernambuco"}
+{"country":"6","stateCode":"PI","stateId":"107","name":"Piau�"}
+{"country":"6","stateCode":"RJ","stateId":"108","name":"Rio de Janeiro"}
+{"country":"6","stateCode":"RN","stateId":"109","name":"Rio Grande do Norte"}
+{"country":"6","stateCode":"RS","stateId":"110","name":"Rio Grande do Sul"}
+{"country":"6","stateCode":"RO","stateId":"111","name":"Rond�nia"}
+{"country":"6","stateCode":"RR","stateId":"112","name":"Roraima"}
+{"country":"6","stateCode":"SC","stateId":"113","name":"Santa Catarina"}
+{"country":"6","stateCode":"SP","stateId":"114","name":"S�o Paulo"}
+{"country":"6","stateCode":"SE","stateId":"115","name":"Sergipe"}
+{"country":"6","stateCode":"TO","stateId":"116","name":"Tocantins"}

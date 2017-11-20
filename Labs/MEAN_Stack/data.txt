@@ -1,0 +1,23 @@
+﻿db.usercollection.insert({ "productId" : 1, "productName" : "Dog", "description" : "The domestic dog (Canis lupus familiaris or Canis familiaris) is a domesticated canid", "price" : 1135.95, "starRating" : 3.7, "imageUrl" : "../app/img/dog.jpg"})
+
+newstuff = [{ "productId" : 1, "productName" : "Dog", "description" : "The domestic dog (Canis lupus familiaris or Canis familiaris) is a domesticated canid", "price" : 1135.95, "starRating" : 3.7, "imageUrl" : "../app/img/dog.jpg"}]
+newstuff2 = [{ "productId" : 2, "productName" : "Striped Cat", "description" : "The domestic cat (Latin: Felis catus) or the feral cat (Latin: Felis silvestris catus) is a small", "price" : 1035.95, "starRating" : 4.6, "imageUrl" : "../app/img/stripes.jpg"}]
+newstuff3 = [{ "productId" : 3, "productName" : "Dwarf Rabbit", "description" : "Rabbits are small mammals in the family Leporidae of the order Lagomorpha", "price" : 1111.55, "starRating" : 3.2, "imageUrl" : "../app/img/dwarf-rabbit.jpg"}]
+newstuff4 = [{ "productId" : 4, "productName" : "Angora Rabbit", "description" : "The Angora rabbit (Turkish: Ankara tavşanı) is a variety of domestic rabbit bred for its long, soft wool.", "price" : 1119.95, "starRating" : 3.9, "imageUrl" : "../app/img/angora-rabbit.jpg"}]
+newstuff5 = [{ "productId" : 5, "productName" : "Laborador Dog", "description" : "Dogs perform many roles for people, such as hunting, herding, pulling loads, protection, assisting police and military", "price" : 1132.99, "starRating" : 3.2, "imageUrl" : "../app/img/blacklab.jpg"}]
+newstuff6 = [{ "productId" : 6, "productName" : "Kitten", "description" : "After being born, kittens are totally dependent on their mother for survival and they do not normally open their eyes until after seven to ten days.", "price" : 1118.2, "starRating" : 2.5, "imageUrl" : "../app/img/kitten.jpg"}]
+
+db.usercollection.insert(newstuff);
+db.usercollection.insert(newstuff2);
+db.usercollection.insert(newstuff3);
+db.usercollection.insert(newstuff4);
+db.usercollection.insert(newstuff5);
+db.usercollection.insert(newstuff6);
+
+db.usercollection.insert({ "username" : "testuser1", "email" : "testuser1@testdomain.com" })
+newstuff = [{ "username" : "testuser2", "email" : "testuser2@testdomain.com" }, { "username" : "testuser3", "email" : "testuser3@testdomain.com" }]
+db.usercollection.insert(newstuff);
+
+db.usercollection.deleteOne({ "productName" : "" });
+
+db.usercollection.updateOne({ "productName" : "Black and white Cat" }, {$set: {"price" : 1001.1} });
